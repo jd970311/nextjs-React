@@ -5,7 +5,11 @@
 
 import React from 'react';
 import Image from 'next/image';
-const ComponentName = (props: any) => {
+interface Props {
+  imgSrc: string;
+  title: string;
+}
+const ComponentName = (props: Props) => {
   return (
     <div className="">
       <Image src={props.imgSrc} alt="home" layout="fill" />

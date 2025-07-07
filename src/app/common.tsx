@@ -5,8 +5,9 @@
 
 import React from 'react';
 import Image from 'next/image';
+import { StaticImageData } from 'next/image';
 interface Props {
-  imgSrc: string;
+  imgSrc: StaticImageData;
   title: string;
 }
 const ComponentName = (props: Props) => {

@@ -6,7 +6,6 @@
 import React from 'react';
 import Common from '@/app/common';
 import imgSrc from '../../../public/2.png';
-import { notFound } from 'next/navigation';
 const ComponentName = () => {
   return (
     <div>
